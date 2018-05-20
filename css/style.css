@@ -1,0 +1,110 @@
+body {
+    
+    background-image : url("https://image.freepik.com/free-vector/colorful-pixelated-background_1017-738.jpg");
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+
+#parent {
+    margin: auto;
+    width: 50%;
+    padding : 7px;
+    text-align: center;
+    overflow : auto;
+}
+h1 {
+    font-family: Acme;
+    color : #42f4f4;
+    text-shadow: 5px 3px 5px #801f87;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: #350f8e;
+    font-size: 40px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+div.gridSelect {
+  float :left;
+    margin-left: 10px; 
+ }
+
+div.colorSelector {
+  float:right;
+    margin-right: 50px;
+}
+
+div.design {
+    clear: both;
+}
+
+.button {
+    width : 30%;
+    height:20%;
+    padding : 2px;
+    background-color: #e516b5;
+    color: black;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #42f4f4;
+    opacity : 0.5;
+    color: black;
+}
+
+i {
+    color: black;
+    margin: 5px;
+}
+
+tr,
+td {
+    
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+
+input[type=number] {
+    width: 3em;
+    padding: 4px;
+    margin: 2px 0;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+
+input[type=number]:hover {
+    background-color: #555555;
+    opacity : 0.5;
+    color: white;
+}
+
+input[type=color] {
+    margin: 2px 0;
+    width: 5em;
+    border-radius: 10px;
+}
